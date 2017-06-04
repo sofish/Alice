@@ -5,7 +5,7 @@
 
  最好不要给 `INPUT[type=submit[button]] || BUTTON` 直接添加border，避免 lte IE7 出现的1px 黑边 bug
 
-- 结构：支持 `-hover`, `hover` 时为 `class=".sl-rc .sl-rc-hover"`
+- 结构：支持 `-hover`, `hover` 时为 `class="sl-rc sl-rc-hover"`
     <pre name="colorcode" class="html">
     &lt;a class="sl-rc"&gt;
       &lt;span class="sl-rc-cnt"&gt;
